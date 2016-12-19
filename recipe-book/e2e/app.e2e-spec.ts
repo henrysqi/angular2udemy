@@ -1,14 +1,14 @@
-import { RecipeBookPage } from './app.po';
+import { CompleteGuidePage } from './app.po';
 
-describe('recipe-book App', function() {
-  let page: RecipeBookPage;
+describe('complete-guide App', function() {
+  let page: CompleteGuidePage;
 
   beforeEach(() => {
-    page = new RecipeBookPage();
+    page = new CompleteGuidePage();
   });
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('rb works!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });

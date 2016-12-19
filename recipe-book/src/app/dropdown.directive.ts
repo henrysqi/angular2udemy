@@ -4,8 +4,7 @@ import { Directive, HostBinding, HostListener } from '@angular/core';
   selector: '[rbDropdown]'
 })
 export class DropdownDirective {
-  //css class open will only be added to hosting element if opened returns true
-  @HostBinding('class.open') get opened(){
+  @HostBinding('class.open') get opened() {
     return this.isOpen;
   }
   @HostListener('click') open() {
