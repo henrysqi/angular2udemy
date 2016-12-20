@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'rb-recipe-start',
@@ -7,11 +7,5 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class RecipeStartComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class RecipeStartComponent {
 }
